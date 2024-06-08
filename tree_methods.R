@@ -3,7 +3,9 @@
 library(ISLR2)
 library(tree) # ordinary regression / classification tree
 library(randomForest) # random forest
+# ^might be too old; try library(ranger)
 library(gbm) # generalised boosting models
+# ^new package library(gbm3) coming out
 library(BART) # Bayesian additive regression tree
 
 ### 1. Ordinary regression / classification tree
